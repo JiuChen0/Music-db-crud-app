@@ -1,0 +1,69 @@
+ <!-- 
+Jiu Chen
+6/8/2023
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Title displayed-->
+    <title>Music Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <!-- header displayed-->
+    <header>
+        <h1>Music Database</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- Navigation menu -->
+            <li><a href="/">Home</a></li>
+            <li><a href="/update.html">Update Songs</a></li> 
+            <li><a href="/genre.html">Genre</a></li> 
+        </ul>
+    </nav>
+    <main>
+       <!--add a new song -->
+        <h2>Add a New Song</h2>
+        <form id="addSongForm">
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title" required>
+            <label for="artist">Artist:</label>
+            <input type="text" id="artist" name="artist" required>
+            <label for="album">Album:</label>
+            <input type="text" id="album" name="album" required>
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre" required>
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year" required>
+            <input type="submit" value="Add Song">
+        </form>
+         <!-- Display all songs -->
+        <h2>All Songs</h2>
+        <button id="getSongs">Get All Songs</button>
+        <table id="songsTable">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Artist</th>
+              <th>Album</th>
+              <th>Genre</th>
+              <th>Year</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+    </main>
+    <!-- Footer-->
+    <footer>
+        <p>© 2023 Jiu Chen</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+ <!-- 
+Jiu Chen
+6/8/2023
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search by Genre</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Search by Genre</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- Navigation menu -->
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/update.html">Update Songs</a></li> 
+            <li><a href="/genre.html">Genre</a></li> 
+        </ul>
+    </nav>
+    <main>
+        <form id="searchGenreForm">
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre">
+            <input type="submit" value="Search">
+        </form>
+        <div id="songs"></div>
+    </main>
+    <footer>
+        <p>© 2023 Jiu Chen</p>
+    </footer>
+    <script src="genre.js"></script>
+</body>
+</html>

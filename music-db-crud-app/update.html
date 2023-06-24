@@ -1,0 +1,67 @@
+ <!-- 
+Jiu Chen
+6/8/2023
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Song</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Update Song</h1>
+    </header>
+    <nav>
+      <ul>
+          <!-- Navigation menu -->
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/update.html">Update Songs</a></li> 
+          <li><a href="/genre.html">Genre</a></li> 
+      </ul>
+  </nav>
+    <main>
+        <h2>All Songs</h2>
+<button id="getSongs">Get All Songs</button>
+<!-- Table to display all songs -->
+<table id="songsTable">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Title</th>
+      <th>Artist</th>
+      <th>Album</th>
+      <th>Genre</th>
+      <th>Year</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+<!-- Form to update a song -->
+        <form id="updateSongForm">
+            <label for="id">Song ID:</label>
+            <input type="text" id="id" name="id" required>
+            <label for="title">Title:</label>
+            <input type="text" id="title" name="title">
+            <label for="artist">Artist:</label>
+            <input type="text" id="artist" name="artist">
+            <label for="album">Album:</label>
+            <input type="text" id="album" name="album">
+            <label for="genre">Genre:</label>
+            <input type="text" id="genre" name="genre">
+            <label for="year">Year:</label>
+            <input type="number" id="year" name="year">
+            <input type="submit" value="Update Song">
+        </form>
+    </main>
+    <footer>
+        <p>© 2023 Jiu Chen</p>
+    </footer>
+
+    <script src="update.js"></script>
+</body>
+</html>

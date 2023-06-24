@@ -1,0 +1,62 @@
+/* Jiu Chen
+6/8/2023 */
+/* my web style */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+
+nav {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6347;
+}
+
+main {
+    padding: 30px 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    margin: 30px auto;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: auto;
+    box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.16);
+}
